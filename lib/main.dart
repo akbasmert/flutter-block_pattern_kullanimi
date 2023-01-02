@@ -1,5 +1,6 @@
 import 'package:block_pattern_kullanimi/anasayfa.dart';
 import 'package:block_pattern_kullanimi/anasayfa_cubit.dart';
+import 'package:block_pattern_kullanimi/odev_6/odev_main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
 
           primarySwatch: Colors.blue,
         ),
-        home: Anasayfa(),
+        home: OdevMain()// Anasayfa(),
       ),
     );
   }
