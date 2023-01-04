@@ -20,14 +20,14 @@ class _OdevMainState extends State<OdevMain> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton:
       FloatingActionButton(
-        elevation: 0,
+        elevation: 1,
 
           backgroundColor: Colors.redAccent,
 
           child: Icon(Icons.camera_alt,color: Colors.white,), onPressed: () {},
       ),
       bottomNavigationBar: BottomAppBar(
-        elevation: 0,
+        elevation: 1,
           shape: CircularNotchedRectangle(),
           child: Container(
             height: 59,
